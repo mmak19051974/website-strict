@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 5px auto;
+/*    height: 100px;*/
+/*    background: red;*/
+}
+
+/* Section Header Starts Here */
+.sec-header{
+    width: 100%;
+    float: left;
+    padding: 28px 0;
+    background: #f6f9f9;
+    
+}
+
+.logo{
+    width: 10%;
+/*    background: red;*/
+    /* height: 100px; */
+    float: left;
+    text-align: right;
+}
+
+.logo img{
+    width: 34px;
+    height: 37px;
+/*    text-align: center;*/
+}
+
+.logo-text{
+    width: 25%;
+/*    background: blue;*/
+/*    height: 100px;*/
+    float: left;
+}
+
+.logo-text h1{
+    margin: 2px 0px 2px 0px;
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.menu{
+    width: 65%;
+    /* background: yellow; */
+    float: left;
+    text-align: center;
+    
+}
+
+.menu nav ul{
+    list-style: none;
+}
+
+.menu nav ul li{
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Section Header Ens Here */
+
+/* Section Banner Starts Here */
+
+.sec-banner{
+    width: 100%;
+    float: left;
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    text-align: center;
+    padding-top: 215px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner-content h2{
+    font-size: 120px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner-content span{
+    display: block;
+    border-bottom: 2px solid #15a4fa;
+    margin: 10px auto; 
+    width: 80%;
+}
+
+
+.banner-content p{
+    color: #fff;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.banner-content .btn{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 8px 18px;
+    color: #fff;
+    margin: 70px 0 150px;
+}
+
+.banner-content .btn-icon{
+    color: #fff;
+    margin-bottom: 90px;
+}
+/* Section Banner Ends Here */
+
+/* Section About Starts Here */
+.sec-about{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 80px 0 10px 0;
+    
+}
+.sec-about-content{
+    text-align: center;
+}
+.sec-about-content .sec-about-h2{
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+.sec-about-content .sec-about-p{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.5em;
+    color: #999999;
+    padding-bottom: 112px;
+}
+/* Section About Ends Here */
+
+
+/* Section Servies Starts Here */
+.sec-services{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 120px;
+}
+
+/* Inner Box 1*/
+.sec-services-content-1{
+   width: 27.33%;
+    /* height: 100px; */
+    float: left;
+    /* background: red; */
+    margin: 3%;
+    text-align: center;
+}
+
+.sec-services-content-1 .sec-services-content-1-inner-icon{
+    margin: 0 auto;
+    margin-bottom: 32px;
+/*    text-align: center;*/
+    height: 100px;
+    width: 100px;
+    background: -webkit-linear-gradient(left, rgba(72,186,255,1) 0%,rgba(32,124,202,1) 49%,rgba(95,195,255,1) 50%);
+    
+}
+
+.sec-services-content-1-inner-icon .fa-mobile{
+    font-size: 88px;
+    text-align: center;
+    margin: 7% auto;
+    color: #fff;
+}
+
+.sec-services-content-1 h3{
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.sec-services-content-1 p{
+    font-size: 15px;
+    color: #999999;
+}
+
+/* Inner Box 2*/
+.sec-services-content-2{
+    width: 27.33%;
+    /* height: 100px; */
+    float: left;
+    /* background: red; */
+    margin: 3%;
+    text-align: center;
+}
+.sec-services-content-2 .sec-services-content-2-inner-icon{
+    margin: 0 auto;
+    margin-bottom: 32px;
+/*    text-align: center;*/
+    height: 100px;
+    width: 100px;
+    background: -webkit-linear-gradient(left, rgba(72,186,255,1) 0%,rgba(32,124,202,1) 49%,rgba(95,195,255,1) 50%);
+    
+}
+
+.sec-services-content-2-inner-icon .fa-paper-plane{
+    font-size: 88px;
+    text-align: center;
+    margin: 7% auto;
+    color: #fff;
+}
+
+.sec-services-content-2 h3{
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.sec-services-content-2 p{
+    font-size: 15px;
+    color: #999999;
+}
+
+/* Inner Box 3*/
+.sec-services-content-3{
+    width: 27.33%;
+    /* height: 100px; */
+    float: left;
+    /* background: red; */
+    margin: 3%;
+    text-align: center;
+}
+
+.sec-services-content-3 .sec-services-content-3-inner-icon{
+    margin: 0 auto;
+    margin-bottom: 32px;
+/*    text-align: center;*/
+    height: 100px;
+    width: 100px;
+    background: -webkit-linear-gradient(left, rgba(72,186,255,1) 0%,rgba(32,124,202,1) 49%,rgba(95,195,255,1) 50%);
+    
+}
+
+.sec-services-content-3-inner-icon .fa-bullhorn{
+    font-size: 65px;
+    text-align: center;
+    margin: 18% auto;
+    color: #fff;
+}
+
+.sec-services-content-3 h3{
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.sec-services-content-3 p{
+    font-size: 15px;
+    color: #999999;
+}
+
+/* Section Servies Ends Here */
+
+
+
+/* Section Portfolio Starts Here */
+
+.sec-portfolio{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding-top: 25px;
+    padding-bottom: 170px;
+}
+
+.sec-portfolio h1{
+    font-size: 41px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sec-portfolio p{
+    font-size: 15px;
+    color: #909090;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.sec-portfolio-row-1{
+    width: 100%;
+/*    height: 100px;*/
+    float: left;
+    text-align: center;
+/*    background: red;*/
+}
+
+.sec-portfolio-row-1 .sec-portfolio-row-1-image-1{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.sec-portfolio-row-1 .sec-portfolio-row-1-image-2{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.sec-portfolio-row-1 .sec-portfolio-row-1-image-3{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.sec-portfolio-row-1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sec-portfolio-row-2{
+    width: 100%;
+/*    height: 100px;*/
+    float: left;
+    text-align: center;
+/*    background: blue;*/
+}
+
+.sec-portfolio-row-2{
+    width: 100%;
+    float: left;
+}
+
+.sec-portfolio-row-2 .sec-portfolio-row-2-image-1{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.sec-portfolio-row-2 .sec-portfolio-row-2-image-2{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.sec-portfolio-row-2 .sec-portfolio-row-2-image-3{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+/* Section Portfolio Ends Here */
+
+
+/* Section Contact Us Starts Here */
+.sec-contact-us{
+    width: 100%;
+    float: left;
+    background: url(../images/contact-us-bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.sec-contact-us-inner-contents{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+
+.sec-contact-us-inner-contents h1{
+     font-size: 41px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.sec-contact-us-inner-contents p{
+     font-size: 15px;
+    color: #999999;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.sec-contact-us-inner-contents .cls-form-control{
+    width: 60%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.sec-contact-us-inner-contents-cb-button{
+    text-align: center;
+}
+
+.sec-contact-us-inner-contents-cb-button checkbox{
+    padding-left: 35px;
+    color: blue;
+}
+
+.sec-contact-us-inner-contents-cb-button button{
+    padding: 6px 25px;
+    background: transparent;
+    color: white;
+    border: 1px solid #15a4fa;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Section Contact Us Ends Here */
+
+/* Section Footer Starts Here */
+.sec-footer{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    
+    
+}
+
+.sec-footer-1st-part{
+    width: 50%;
+    height: 75px;
+    float: left;
+/*    background: red;*/
+/*    text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-footer-1st-part h2{
+    color: #999999;
+    font-size: 15px;
+}
+
+.sec-footer-2nd-part{
+    width: 50%;
+    height: 75px;
+    float: left;
+/*    background: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    text-align: center;*/
+}
+
+.sec-footer-2nd-part i{
+    width: 19px;
+    height: 20px;
+    font-size: 20px;
+    background: #15a4fa;
+    padding: 10px 10px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+}
+
+
+/* Section Footer Starts Here */
